@@ -1,0 +1,359 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navDiv {
+  text-align: center;
+  width:100%;
+  border: 1px solid rgb(228, 225, 225);
+  padding:10px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.firstDiv {
+  text-align: center;
+  width:97%;
+  border: 1px solid rgb(228, 225, 225);
+  padding:20px;
+  font-weight: 700;
+  font-size: 17px;
+  /* margin:10px; */
+ margin: 20px;
+}
+/* .secDiv {
+  text-align: center;
+  width:100%;
+  border: 1px solid rgb(228, 225, 225);
+  padding:10px;
+  font-weight: 700;
+  font-size: 17px;
+  
+  flex-grow: 1;
+  display:flex;
+  flex-direction: row;
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.FirstOuterDiv {
+  margin-top: 5vw;
+  /* height: 600px; */
+  /* background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Ffreedesignfile.com%2Fupload%2F2018%2F12%2FBlue-background-free--vector-graphics-43563.png&imgrefurl=https%3A%2F%2Ffreedesignfile.com%2F587615-blue-background-free-vector-graphics%2F&tbnid=aZ07iOYhWCrtHM&vet=10CMIBEDMovgFqFwoTCMCG7L2fs_wCFQAAAAAdAAAAABAD..i&docid=YdWzZsXKcxllYM&w=374&h=290&q=background%20free%20download&ved=0CMIBEDMovgFqFwoTCMCG7L2fs_wCFQAAAAAdAAAAABAD"); */
+
+  /* background-image:"Abstract.jpg"; */
+ 
+ 
+
+  background-size: cover;
+  width: 100%;
+}
+
+.innerDiv {
+  display: flex;
+  height: 100%;
+  /* background:linear-gradient(white,#e91e63); */
+   background-image: url("Background.jpg");
+   background-size: cover;
+   
+}
+
+.leftSection {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSection img {
+  width: 42vw;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.rightItem {
+  padding: 0.5vw;
+  margin: 0.5vw;
+  width: 70%;
+  text-overflow: clip;
+  text-align: left;
+  cursor: pointer;
+}
+
+.itemHeading {
+  color: #499557;
+  font-size: 1.4vw;
+  margin: 6px 0px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.itemDescription {
+  font-size: 1.3vw;
+  color: #505050;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.selectedItem {
+  color: #252525;
+  /* font-weight: 550; */
+}
+
+.progressBar {
+  /* height: 4px; */
+  height: 0.3vw;
+  background-color: rgb(222, 225, 227);
+  /* margin: 4px 0px; */
+  margin-top: 1vw;
+}
+
+.progress {
+  /* height: 4px; */
+  height: 0.3vw;
+  background-color: #499557;
+}
+
+/***************************************************/
+/***second page***/
+.container{
+  /* //flexGrow: 1, */
+   margin:50px; 
+  padding:50px; 
+  width:100%;
+  text-align:center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+.mainCon{
+  width:90%;
+  /* border-radius:50px;  */
+  display:flex;
+  flex-direction:row;
+  /* padding-left:100px; */
+  /* padding-right:100px; */
+  /* margin:50px; */
+  align-items:center; 
+  text-align: center; 
+  justify-content: center;
+  margin-left: -200px;
+  margin-top: 50px;
+}
+.mainCon .firstCon{
+  /* width:50%; */
+  border-radius:20px; 
+  margin:20px;
+  /* border:2px solid #EEEEEE; */
+  margin-right: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+ 
+}
+.mainCon .secCon{
+ margin-top: 15px;
+  margin-left: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius:20px;
+}
+.mainCon.secContainer{
+  width:50%;
+  border-radius:20px;
+  margin:20px;
+  border:2px solid #EEEEEE;
+  padding:20px;
+}
+
+.heading{
+  background-color:#499557;
+  height:50px;
+  text-align:center;
+  align-items:center;
+  padding:5px;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+
+}
+.heading2{
+  background-color:#DC9E00;
+  height:50px;
+  text-align:center;
+  align-items:center;
+  padding:5px;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+ 
+  font-size: 20px;
+   text-align: left;
+  color:white ;
+}
+.heading1{
+  background-color:rgb(211 201 201);
+  height:50px;
+  text-align:center;
+  align-items:center;
+  justify-content: center;
+  padding:5px;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  font-size: 12px;
+  font-weight: 400;
+}
+ 
+
+
+
+
+/* Third Page*/
+.detailOuterDiv {
+  margin-top: 6vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detailOuterDiv p {
+  margin: 10px;
+  text-align: center;
+}
+
+.roundProgress {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.roundItem {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+
+.circleDiv1 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 270deg,rgb(193 193 193));
+}
+
+.percent1 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.circleDiv2 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 360deg, lightgray 0deg);
+}
+
+.percent2 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.circleDiv3 {
+  font-size: 1.5vw;
+  border-radius: 50%;
+  height: 12vw;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: conic-gradient(#499557 306deg, lightgray 0deg);
+}
+
+.percent3 {
+  height: 11vw;
+  width: 11vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  color: #499557;
+  font-weight: 600;
+}
+
+.bigValue {
+  font-size: 3.5vw;
+}
+
+.smallValue {
+  font-size: 1.2vw;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
